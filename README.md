@@ -2,7 +2,7 @@
 
 # 镜笺 Lenscript
 
-**跨平台照片 EXIF 水印 / 边框工具 —— 24 套样式，一套纯 Rust 引擎驱动 5 个客户端**
+**跨平台照片 EXIF 水印 / 边框工具 —— 26 套样式，一套纯 Rust 引擎驱动 5 个客户端**
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/在线使用-mark.lenscript.cn-brightgreen)](https://mark.lenscript.cn)
@@ -46,7 +46,7 @@ Rust 重写、扩展样式与多端支持的衍生项目（Apache-2.0）。
 镜笺包含一个**默认开启（可在设置中关闭）的匿名使用统计**：只发送功能使用次数这类计数，
 不会发送照片、文件名或拍摄信息，也不会在你的设备上存储任何标识符。
 
-## 样式一览（24 套内置，同一张照片真实渲染）
+## 样式一览（26 套内置，同一张照片真实渲染）
 
 | | | |
 |:---:|:---:|:---:|
@@ -58,6 +58,7 @@ Rust 重写、扩展样式与多端支持的衍生项目（Apache-2.0）。
 | <img src="images/styles/magazine.jpg" alt="照片水印样式：杂志，极简底栏大留白杂志封面"> **杂志** | <img src="images/styles/centered-caption.jpg" alt="照片水印样式：居中题注，白色相框画廊标签"> **居中题注** | <img src="images/styles/dark-polaroid.jpg" alt="照片水印样式：暗色拍立得，暖调深色相纸复古胶片"> **暗色拍立得** |
 | <img src="images/styles/floating-label.jpg" alt="照片水印样式：浮签，左下角浮签式淡字直印"> **浮签** | <img src="images/styles/corner-label.jpg" alt="照片水印样式：角标，左上角机型日期小字"> **角标** | <img src="images/styles/minimal-centered.jpg" alt="照片水印样式：极简中置，品牌Logo机型居中白字"> **极简中置** |
 | <img src="images/styles/centered-two-line.jpg" alt="照片水印样式：中置双行，Logo机型参数双行居中"> **中置双行** | <img src="images/styles/kodak-35mm-film.jpg" alt="照片水印样式：柯达胶片，135胶片条齿孔柯达黄"> **柯达胶片** | <img src="images/styles/medium-format-film.jpg" alt="照片水印样式：中画幅胶片，120圆角黑框竖排KODAK帧号"> **中画幅胶片** |
+| <img src="images/styles/minimal-zine.jpg" alt="照片水印样式：极简刊物，独立刊物海报式超大机型标题与朱红色块"> **极简刊物** | <img src="images/styles/zine-cutout.jpg" alt="照片水印样式：纸片浮贴，左下角压痕纸卡与朱红索引条"> **纸片浮贴** | |
 
 > 展示图为压缩预览；实际导出为全分辨率原质量。样张由 CLI 用同一张测试照片真实渲染生成。
 

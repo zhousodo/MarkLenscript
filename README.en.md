@@ -2,7 +2,7 @@
 
 # Lenscript (镜笺)
 
-**Cross-platform photo EXIF watermark & frame tool — 24 styles, one pure-Rust engine, 5 clients**
+**Cross-platform photo EXIF watermark & frame tool — 26 styles, one pure-Rust engine, 5 clients**
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/try%20it%20online-mark.lenscript.cn-brightgreen)](https://mark.lenscript.cn)
@@ -50,7 +50,7 @@ Lenscript includes **anonymous usage statistics, on by default and switchable of
 settings**: only feature-usage counts are sent. Never photos, filenames, or shooting
 metadata, and no device identifier is stored on your machine.
 
-## Style gallery (24 built-in styles, all rendered from the same test photo)
+## Style gallery (26 built-in styles, all rendered from the same test photo)
 
 | | | |
 |:---:|:---:|:---:|
@@ -62,6 +62,7 @@ metadata, and no device identifier is stored on your machine.
 | <img src="images/styles/magazine.jpg" alt="photo watermark style: minimal bar with generous whitespace, magazine cover look"> **Magazine** | <img src="images/styles/centered-caption.jpg" alt="photo watermark style: white frame with centered caption like a gallery label"> **Centered Caption** | <img src="images/styles/dark-polaroid.jpg" alt="photo watermark style: warm dark polaroid paper with cream text, vintage film mood"> **Dark Polaroid** |
 | <img src="images/styles/floating-label.jpg" alt="photo watermark style: floating label printed subtly at the bottom left"> **Floating Label** | <img src="images/styles/corner-label.jpg" alt="photo watermark style: small model and date label at the top left corner"> **Corner Label** | <img src="images/styles/minimal-centered.jpg" alt="photo watermark style: brand logo and model centered at the photo bottom"> **Minimal Centered** |
 | <img src="images/styles/centered-two-line.jpg" alt="photo watermark style: logo and model on one line, parameters on the second, centered"> **Two-Line Centered** | <img src="images/styles/kodak-35mm-film.jpg" alt="photo watermark style: 35mm film strip with sprocket holes and Kodak yellow edge print"> **Kodak 35mm Film** | <img src="images/styles/medium-format-film.jpg" alt="photo watermark style: 120 medium format rounded black frame with vertical KODAK edge and frame number"> **Medium Format Film** |
+| <img src="images/styles/minimal-zine.jpg" alt="photo watermark style: indie zine poster layout with oversized camera model and vermilion block"> **Minimal Zine** | <img src="images/styles/zine-cutout.jpg" alt="photo watermark style: small letterpressed paper card at the lower left with a vermilion index bar"> **Paper Cut-Out** | |
 
 > Gallery images are compressed previews; actual exports are full-resolution at original
 > quality. All samples were rendered by the CLI from the same test photo.
