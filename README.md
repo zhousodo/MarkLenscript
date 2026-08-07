@@ -8,8 +8,12 @@
 [![Website](https://img.shields.io/badge/在线使用-mark.lenscript.cn-brightgreen)](https://mark.lenscript.cn)
 [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-824558022-12B7F5)](#交流与支持)
 
+**[English](README.en.md)** ｜ 简体中文
+
 **这是镜笺的展示仓库**（只放介绍与图片，不含源代码）。
 源代码在 **[github.com/zhousodo/lenscript](https://github.com/zhousodo/lenscript)**。
+
+**在线使用：[https://mark.lenscript.cn](https://mark.lenscript.cn)**
 
 <img src="images/hero.jpg" width="640" alt="镜笺 Lenscript 相机照片 EXIF 水印示例：奶油底签样式，Sony α7C II 机型、镜头、拍摄参数、日期署名与品牌 Logo">
 
@@ -94,32 +98,3 @@ Rust 重写、扩展样式与多端支持的衍生项目（Apache-2.0）。
 镜笺源码为 Apache-2.0 衍生项目（基于 Semi-Utils，Apache-2.0），完整许可条款见源码仓库；
 本展示仓库中的文字与图片同样以 [Apache-2.0 许可](LICENSE) 提供。品牌 Logo 为各自商标，
 仅用于示例，不代表镜笺与相关厂商有任何合作关系。
-
----
-
-<a id="english"></a>
-
-## English
-
-**This is the showcase repository for Lenscript** — README and images only, no source
-code. Source code lives at **[github.com/zhousodo/lenscript](https://github.com/zhousodo/lenscript)**.
-
-Lenscript stamps your photos with an EXIF info bar or frame — camera model, lens,
-aperture/shutter/ISO, timestamp, your signature, and a brand logo. 24 built-in styles,
-one pure-Rust engine. It never overwrites your source file and never downscales the
-output: JPEG is re-encoded at quality 100 with 4:4:4 (no chroma subsampling), PNG is
-pixel-lossless. Feature-comparable to [Semi-Utils](https://github.com/leslievan/semi-utils),
-built as a Rust rewrite with more styles and more clients (Apache-2.0).
-
-**Five clients, one engine**: browser (WebAssembly, no install — try it at
-[mark.lenscript.cn](https://mark.lenscript.cn)), desktop app (Windows/macOS/Linux, Tauri),
-a local web app, a command-line tool, and Android. All five share the same rendering
-engine and style catalog.
-
-**Your photos never leave your device.** Every client renders locally; nothing is
-uploaded to any server. GPS location data is stripped from output by default. Lenscript
-includes anonymous usage statistics that are on by default (togglable in settings) —
-only feature-usage counts are sent, never photos, filenames, or shooting metadata, and
-no device identifier is stored.
-
-Try it online at **[mark.lenscript.cn](https://mark.lenscript.cn)**.
